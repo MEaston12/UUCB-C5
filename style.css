@@ -28,15 +28,13 @@ textarea{
 
 .time-block{
   height:80px;
+  margin-bottom: .25em;
 }
 .time-block input{
   height:80px;
 }
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+.time-block .input-group-prepend *{
+  width: 6em;
 }
 
 .past {

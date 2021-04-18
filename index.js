@@ -1,6 +1,7 @@
-const timeBlockHTML = 
+//Using JQuery 3.4.1 and Luxon 1.26.0
 
-for(let i = 0; i < 12; i++){
-    $('#time-blocks').
-}
-
+$('#currentDay').text(`Today is ${luxon.DateTime.now().toLocaleString({
+    weekday: 'long',
+    month: 'long',
+    day: '2-digit'
+})}`);

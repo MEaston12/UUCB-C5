@@ -42,7 +42,7 @@ function renderTimeBlocks(){
 }
 
 function initializeTimeBlocksArr(){
-    for(let i = 6; i < 24; i++){ //Begin/end of range set here
+    for(let i = 6; i < 20; i++){ //Begin/end of range set here
         timeBlocks.push({
             lux: now.set({hour: i, minute:0, second:0}),
             eventStr: ''
